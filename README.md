@@ -33,7 +33,6 @@ Ce document décrit étape par étape le pipeline de traitement, modélisation e
 - `project_id = 'emea-dataexzone-gbl-emea-pd'`
 - Requête SQL externalisée dans `/home/user/mmm_influencers/source_documents/full_posts.sql`
 
-**⚠ Point d'attention** : le cache n'est jamais invalidé automatiquement. Si la requête SQL change, il faut relancer avec `force_refresh=True`.
 
 ---
 
